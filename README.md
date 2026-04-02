@@ -5,6 +5,12 @@
 本教程在 Windows 环境下，使用 **MinGW-w64** 手动编译 **OpenCV 4.8.0**。旨在帮助解决OpenCV官方库只提供针对MSVC的版本问题，以及一些典型兼容性问题。
 
 ---
+OpenCV-4.8.0在gcc/g++15.1.0下编译的版本：
+https://bhpan.buaa.edu.cn/link/AAF55459F90E154984AFD305840EBC599A
+文件名：opencv_480_compile.7z
+有效期限：永久有效
+提取码：bPfh
+---
 
 ### 测试环境
 * **OS**: Windows 11
