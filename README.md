@@ -49,7 +49,7 @@ https://bhpan.buaa.edu.cn/link/AAF55459F90E154984AFD305840EBC599A
   或者打开刚才设置cmake环境变量的文件夹 `YourCMakePath/bin/`，点击 `cmake-gui.exe`（如果没开后缀显示，则会显示为 `cmake-gui`，打开这个文件就可以）
   如下是CMake GUI的界面截图
   ![cmake_gui](README_PICTURE/pic5.png)
-  **Where is the source code**: 指向opencv源码文件夹，也就是你刚才解压的opencv文件夹，在这个文件夹下有一个 `Makefile` 文件，确认不要选错路径。
+  **Where is the source code**: 指向opencv源码文件夹，也就是你刚才解压的opencv文件夹，在这个文件夹下有一个 `CMakeList.txt` 文件，确认不要选错路径。
   **Where to build the binaries**: 指向你要将编译后的文件存放的目录，建议新建一个和opencv源码文件夹同级的文件夹。
   点击下方 **Configure** 按钮
   在弹出的弹窗中，下拉栏选择 **MinGW Makefiles**，选择 **Specify native compilers**，随后点击**next**
